@@ -1,0 +1,12 @@
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Service.deps.json
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Service.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Service.pdb
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.AssemblyInfoInputs.cache
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.AssemblyInfo.cs
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.csproj.CoreCompileInputs.cache
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.sourcelink.json
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/refint/BlogApp.Service.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.pdb
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/ref/BlogApp.Service.dll
