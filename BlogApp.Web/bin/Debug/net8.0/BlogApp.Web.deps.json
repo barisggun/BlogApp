@@ -9,11 +9,8 @@
       "BlogApp.Web/1.0.0": {
         "dependencies": {
           "BlogApp.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "Npgsql": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0"
         },
         "runtime": {
@@ -317,11 +314,6 @@
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.0.21115"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "8.0.0"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -1314,13 +1306,6 @@
       "sha512": "sha512-fF0sVEUkoGeJutGIzwnYsJJ9o2hxEGJRpSaCxPq63rhSwn0hBmCwf9ET4QqYqO9Pc6+ODXenAQa095CWzuM4Kg==",
       "path": "microsoft.entityframeworkcore.relational.design/1.1.0",
       "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.0.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
-      "path": "microsoft.entityframeworkcore.tools/8.0.0",
-      "hashPath": "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
