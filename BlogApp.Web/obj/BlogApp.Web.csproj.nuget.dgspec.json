@@ -201,6 +201,66 @@
         }
       }
     },
+    "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj",
+        "projectName": "BlogApp.Service",
+        "projectPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj",
+        "packagesPath": "/Users/baris/.nuget/packages/",
+        "outputPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/baris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/baris/RiderProjects/BlogApp/BlogApp.Data/BlogApp.Data.csproj": {
+                "projectPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Data/BlogApp.Data.csproj"
+              },
+              "/Users/baris/RiderProjects/BlogApp/BlogApp.Entity/BlogApp.Entity.csproj": {
+                "projectPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Entity/BlogApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/BlogApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -225,6 +285,9 @@
             "projectReferences": {
               "/Users/baris/RiderProjects/BlogApp/BlogApp.Data/BlogApp.Data.csproj": {
                 "projectPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Data/BlogApp.Data.csproj"
+              },
+              "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj": {
+                "projectPath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj"
               }
             }
           }
@@ -244,6 +307,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Npgsql": {
               "target": "Package",

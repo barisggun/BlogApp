@@ -10,3 +10,11 @@
 /Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/refint/BlogApp.Service.dll
 /Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.pdb
 /Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/ref/BlogApp.Service.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Core.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Data.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Entity.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Data.pdb
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Entity.pdb
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/bin/Debug/net8.0/BlogApp.Core.pdb
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp.Service.csproj.AssemblyReference.cache
+/Users/baris/RiderProjects/BlogApp/BlogApp.Service/obj/Debug/net8.0/BlogApp..97B59810.Up2Date
