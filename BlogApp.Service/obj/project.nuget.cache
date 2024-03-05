@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/9I+DajZtqevefnTF8EzuP72nkUkv931ihTQ2i5f82OFGkQitITxuQtdt52nEgALY1TTehjrviXB+jxUcu9P0Q==",
+  "dgSpecHash": "p9pNuFE8hwjYLUfm8eifvBV42w9bqObzaOfxiuF1hztiYjZbJ8VHTGAcYOznbAasUM9bsyBJvw6lID13S9eUFA==",
   "success": true,
   "projectFilePath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Service/BlogApp.Service.csproj",
   "expectedPackageFiles": [
+    "/Users/baris/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/baris/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0/microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",

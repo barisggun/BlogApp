@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cG0e4vBPKUo9GC/IsM8gJmdvLj0e7nynVSQG3YkDKmRqgbjRZ35mPKq/NJVTZvfCu6Jktm0vqrODVFD2YasDfw==",
+  "dgSpecHash": "b0sLfq+0+Rt7Ra/fM5bnN4LqSaU94AaJxjFFCXks2qa2BDfLLE9+yIz5SoIaLT9AUf/nlt+ytkNan3oKaX/Acw==",
   "success": true,
   "projectFilePath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/BlogApp.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/baris/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/baris/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
@@ -69,6 +71,7 @@
     "/Users/baris/.nuget/packages/microsoft.codeanalysis.razor/6.0.24/microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.codeanalysis.scripting.common/4.8.0-3.final/microsoft.codeanalysis.scripting.common.4.8.0-3.final.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0-3.final/microsoft.codeanalysis.workspaces.common.4.8.0-3.final.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.diasymreader/2.0.0/microsoft.diasymreader.2.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.dotnet.scaffolding.shared/8.0.1/microsoft.dotnet.scaffolding.shared.8.0.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
