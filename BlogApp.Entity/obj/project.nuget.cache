@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "wv5wyGs+JOv1R2MhBMwWcv3Bsq77pFSLo+sbIgJGph7Ku6X4krYfOer+Hgzpvu2Qa+wX8f8CcIOKwag668M6NA==",
+  "dgSpecHash": "VVnszfOELHt3vw98Xe5hvntFEXVio0boxW3HxLKEhESJkHGf9+phZnI0yPld6ujO77aRkr6MvJQd46V4xm4JEQ==",
   "success": true,
   "projectFilePath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Entity/BlogApp.Entity.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/baris/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.0/microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.0/microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.identity.core/8.0.0/microsoft.extensions.identity.core.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.identity.stores/8.0.0/microsoft.extensions.identity.stores.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

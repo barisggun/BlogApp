@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b0sLfq+0+Rt7Ra/fM5bnN4LqSaU94AaJxjFFCXks2qa2BDfLLE9+yIz5SoIaLT9AUf/nlt+ytkNan3oKaX/Acw==",
+  "dgSpecHash": "ZyPWGWdVsu/xmJ2h8VAqNFK3cGC5VZt8MhAxSD/JF5OBRx9haVYb5uDfCbkKXXnsn5Xn/x3Isjyt4oBvDLiAHw==",
   "success": true,
   "projectFilePath": "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/BlogApp.Web.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,9 @@
     "/Users/baris/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/baris/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.0/microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.0/microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/8.0.0/microsoft.aspnetcore.identity.entityframeworkcore.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.24/microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.build/17.8.3/microsoft.build.17.8.3.nupkg.sha512",
@@ -86,6 +89,8 @@
     "/Users/baris/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.identity.core/8.0.0/microsoft.extensions.identity.core.8.0.0.nupkg.sha512",
+    "/Users/baris/.nuget/packages/microsoft.extensions.identity.stores/8.0.0/microsoft.extensions.identity.stores.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/baris/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
