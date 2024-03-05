@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BlogApp.Data.Mappings;
 
-public class UserClaimMap : IEntityTypeConfiguration<AppUserClaim>
+public class RoleClaimMap : IEntityTypeConfiguration<AppRoleClaim>
 {
-    public void Configure(EntityTypeBuilder<AppUserClaim> b)
+    public void Configure(EntityTypeBuilder<AppRoleClaim> b)
     {
         // Primary key
         b.HasKey(uc => uc.Id);
