@@ -32,5 +32,27 @@ public class RoleMap : IEntityTypeConfiguration<AppRole>
 
         // Each Role can have many associated RoleClaims
         b.HasMany<AppRoleClaim>().WithOne().HasForeignKey(rc => rc.RoleId).IsRequired();
+
+        b.HasData(new AppRole
+        {
+            Id = Guid.Parse("04E3811B-601C-44A4-8FC8-AB675A5B8688"),
+            Name = "Superadmin",
+            NormalizedName = "SUPERADMIN",
+            ConcurrencyStamp = Guid.NewGuid().ToString()
+        },
+            new AppRole
+            {
+                Id = Guid.Parse("CA6E803E-6C79-4C23-BE94-52183C688188"),
+                Name = "Admin",
+                NormalizedName = "ADMIN",
+                ConcurrencyStamp = Guid.NewGuid().ToString()
+            },
+            new AppRole
+            {
+                Id = Guid.Parse("34D186CE-404C-4E6B-A7BE-C5EFFA15D4BA"),
+                Name = "User",
+                NormalizedName = "USER",
+                ConcurrencyStamp = Guid.NewGuid().ToString()
+            });
     }
 }
