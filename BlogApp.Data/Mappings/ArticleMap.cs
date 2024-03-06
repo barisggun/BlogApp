@@ -21,6 +21,7 @@ builder.HasData(new Article
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.UtcNow,
                 IsDeleted = false,
+                UserId = Guid.Parse("AE1143B6-1D26-4794-A589-B898AB3EC39F")
             },
             new Article
             {
@@ -33,6 +34,7 @@ builder.HasData(new Article
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.UtcNow,
                 IsDeleted = false,
+                UserId = Guid.Parse("1D8E5F54-B639-4F1A-A824-DB9192BAE014")
             });
     }
 }
