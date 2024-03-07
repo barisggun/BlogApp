@@ -14,6 +14,8 @@ builder.Services.ServiceLayerExtension();
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSession(); //İdentity için eklendi
+
 //identity
 builder.Services.AddIdentity<AppUser,AppRole>(opt=>
 {
@@ -26,21 +28,19 @@ builder.Services.AddIdentity<AppUser,AppRole>(opt=>
 
 builder.Services.ConfigureApplicationCookie(config =>
 {
-    //yetkisiz kullanıcıyı yönlendirdiğimiz sayfa
     config.LoginPath = new PathString("/Admin/Auth/Login");
-    config.LogoutPath = new PathString("Admin/Auth/Logout");
+    config.LogoutPath = new PathString("/Admin/Auth/Logout");
     config.Cookie = new CookieBuilder
     {
-        Name = "BlogApp",
+        Name = "YoutubeBlog",
         HttpOnly = true,
         SameSite = SameSiteMode.Strict,
-        SecurePolicy = CookieSecurePolicy.SameAsRequest //canlıya çıkınca always yapmalıyız https olması için her zaman
+        SecurePolicy = CookieSecurePolicy.SameAsRequest //Always 
     };
-    config.SlidingExpiration = true; //kimlik doğrulama belirtecinin geçerlilik süresini belirler.  değeri true olarak ayarlanırsa, belirtecin son kullanımından itibaren geçerlilik süresi içinde herhangi bir istek alındığında, belirtecin süresi sıfırlanır ve tekrar belirlenen süre kadar geçerli olur. Yani, kullanıcı aktifken belirtecin süresi sürekli olarak yenilenir. Bu şekilde, kullanıcı aktif olduğu sürece oturumunun süresi uzatılmış olur.
+    config.SlidingExpiration = true;
     config.ExpireTimeSpan = TimeSpan.FromDays(7);
-    config.AccessDeniedPath = new PathString("/Admin/Auth/Accesdenied");
+    config.AccessDeniedPath = new PathString("/Admin/Auth/AccessDenied");
 });
-
 // builder.Services.AddDbContext<AppDbContext>(options =>
 //     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
