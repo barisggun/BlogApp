@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.LoadDataLayerExtension(builder.Configuration);
 builder.Services.ServiceLayerExtension();
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddSession(); //İdentity için eklendi
 
