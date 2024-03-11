@@ -50,4 +50,18 @@ public class ArticleService : IArticleService
         await _unitOfWork.GetRepository<Article>().AddAsync(article);
         await _unitOfWork.SaveAsync();
     }
+
+    public async Task UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
+    {
+        var article = await _unitOfWork.GetRepository<Article>()
+            .GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category);
+        
+        article.Title = articleUpdateDto.Title;
+        article.Content = articleUpdateDto.Content;
+        article.CategoryId = articleUpdateDto.CategoryId;
+        
+        await _unitOfWork.GetRepository<Article>().UpdateAsync(article);
+
+        await _unitOfWork.SaveAsync();
+    }
 }
