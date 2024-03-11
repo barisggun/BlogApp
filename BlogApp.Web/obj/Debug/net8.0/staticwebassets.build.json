@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nAxjpjYeThhMP8Gp5gdE1WW0PzQlqloOqAcLXDpLPOE=",
+  "Hash": "Ol8L0WCQ2QFnVXC+/BoTapbSo/6/FAiL/8FhqeiYcZ0=",
   "Source": "BlogApp.Web",
   "BasePath": "_content/BlogApp.Web",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/wwwroot/js/article.js",
+      "SourceId": "BlogApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/wwwroot/",
+      "BasePath": "_content/BlogApp.Web",
+      "RelativePath": "js/article.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/article.js"
     },
     {
       "Identity": "/Users/baris/RiderProjects/BlogApp/BlogApp.Web/wwwroot/js/site.js",

@@ -17,12 +17,28 @@ public class ArticleService : IArticleService
         _mapper = mapper;
     }
     
-    public async Task<List<ArticleDto>> GetAllArticlesAsync()
+    public async Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync()
     {
-        var articles =  await _unitOfWork.GetRepository<Article>().GetAllAsync();
+        var articles =  await _unitOfWork.GetRepository<Article>().GetAllAsync(x=> !x.IsDeleted,x=>x.Category);
         
         var map = _mapper.Map<List<ArticleDto>>(articles);
 
         return map;
+    }
+
+    public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
+    {
+        var userId = Guid.Parse("AE1143B6-1D26-4794-A589-B898AB3EC39F");
+
+        var article = new Article
+        {
+            UserId = userId,
+            Title = articleAddDto.Title,
+            Content = articleAddDto.Content,
+            CategoryId = articleAddDto.CategoryId
+        };
+
+        await _unitOfWork.GetRepository<Article>().AddAsync(article);
+        await _unitOfWork.SaveAsync();
     }
 }
