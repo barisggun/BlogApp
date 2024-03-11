@@ -26,6 +26,15 @@ public class ArticleService : IArticleService
         return map;
     }
 
+    public async Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
+    {
+        var article =  await _unitOfWork.GetRepository<Article>().GetAsync(x=> !x.IsDeleted && x.Id == articleId, x=>x.Category);
+        
+        var map = _mapper.Map<ArticleDto>(article);
+
+        return map;
+    }
+    
     public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
     {
         var userId = Guid.Parse("AE1143B6-1D26-4794-A589-B898AB3EC39F");
