@@ -38,15 +38,17 @@ public class ArticleService : IArticleService
     public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
     {
         var userId = Guid.Parse("AE1143B6-1D26-4794-A589-B898AB3EC39F");
+        var imageId = Guid.Parse("F71F4B9A-AA60-461D-B398-DE31001BF214");
+        // var article = new Article
+        // {
+        //     UserId = userId,
+        //     Title = articleAddDto.Title,
+        //     Content = articleAddDto.Content,
+        //     CategoryId = articleAddDto.CategoryId
+        // };
 
-        var article = new Article
-        {
-            UserId = userId,
-            Title = articleAddDto.Title,
-            Content = articleAddDto.Content,
-            CategoryId = articleAddDto.CategoryId
-        };
-
+        var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, articleAddDto.CategoryId, imageId);
+        
         await _unitOfWork.GetRepository<Article>().AddAsync(article);
         await _unitOfWork.SaveAsync();
     }
