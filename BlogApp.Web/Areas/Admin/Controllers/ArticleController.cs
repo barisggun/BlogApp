@@ -1,4 +1,5 @@
 using AutoMapper;
+using BlogApp.Data.UnitOfWorks;
 using BlogApp.Entity.DTOs.Articles;
 using BlogApp.Services.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
@@ -65,5 +66,13 @@ public class ArticleController : Controller
         articleUpdateDto.Categories = categories;
         
         return View(articleUpdateDto);
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> Delete(Guid articleId)
+    {
+        await _articleService.SafeDeleteArticleAsync(articleId);
+
+        return RedirectToAction("Index","Article", new {Area = "Admin"});
     }
 }
