@@ -1,6 +1,10 @@
+using System.Globalization;
 using System.Reflection;
+using BlogApp.Services.FluentValidations;
 using BlogApp.Services.Services.Abstractions;
 using BlogApp.Services.Services.Concrete;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +21,14 @@ public static class ServiceLayerExtensions
         services.AddScoped<ICategoryService, CategoryService>();
 
         services.AddAutoMapper(assembly);
+
+        services.AddControllersWithViews().AddFluentValidation(opt =>
+        {
+            opt.RegisterValidatorsFromAssemblyContaining<ArticleValidator>();
+            opt.DisableDataAnnotationsValidation = true;
+            opt.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr");
+            
+        });
         return services;
     }
 

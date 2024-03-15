@@ -547,3 +547,6 @@
 /Users/baris/RiderProjects/BlogApp/BlogApp.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/baris/RiderProjects/BlogApp/BlogApp.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 /Users/baris/RiderProjects/BlogApp/BlogApp.Web/obj/Debug/net8.0/BlogApp.Web.MvcApplicationPartsAssemblyInfo.cs
+/Users/baris/RiderProjects/BlogApp/BlogApp.Web/bin/Debug/net8.0/FluentValidation.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Web/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/baris/RiderProjects/BlogApp/BlogApp.Web/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
