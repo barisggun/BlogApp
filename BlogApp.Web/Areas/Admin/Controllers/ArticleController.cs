@@ -3,9 +3,11 @@ using BlogApp.Data.UnitOfWorks;
 using BlogApp.Entity.DTOs.Articles;
 using BlogApp.Entity.Entities;
 using BlogApp.Services.Services.Abstractions;
+using BlogApp.Web.ResultMessages;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using NToastNotify;
 
 namespace BlogApp.Web.Areas.Admin.Controllers;
 
@@ -16,14 +18,16 @@ public class ArticleController : Controller
     private readonly ICategoryService _categoryService;
     private readonly IMapper _mapper;
     private readonly IValidator<Article> _validator;
+    private readonly IToastNotification _toast;
 
     public ArticleController(IArticleService articleService, ICategoryService categoryService, IMapper mapper,
-        IValidator<Article> validator)
+        IValidator<Article> validator,IToastNotification toast)
     {
         _articleService = articleService;
         _categoryService = categoryService;
         _mapper = mapper;
         _validator = validator;
+        _toast = toast;
     }
 
     // GET
@@ -56,6 +60,7 @@ public class ArticleController : Controller
         else
         {
             await _articleService.CreateArticleAsync(articleAddDto);
+            _toast.AddSuccessToastMessage(Messages.Article.Add(articleAddDto.Title), new ToastrOptions{ Title = "Başarılı!"});
             return RedirectToAction("Index", "Article", new { Area = "Admin" });
         }
     }
