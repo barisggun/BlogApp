@@ -8,14 +8,15 @@ public class Article : EntityBase
     {
         
     }
-    public Article(string title,string content, Guid userId, Guid categoryId, Guid imageId )
+    public Article(string title,string content, Guid userId,string createdBy , Guid categoryId, Guid imageId)
     {
         Title = title;
         Content = content;
         UserId = userId;
         CategoryId = categoryId;
-        ImageId = imageId;
+        ImageId = imageId; 
         //ViewCount'ı burada da 0 verebiliriz. Ama aşağıda vermek daha performanslı.
+        CreatedBy = createdBy;
     }
     public string Title { get; set; }
     public string Content { get; set; }

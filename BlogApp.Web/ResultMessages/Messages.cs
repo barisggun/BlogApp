@@ -13,5 +13,10 @@ public class Messages
         {
             return $"{articleTitle} başlıklı makale başarılı bir şekilde güncellendi";
         }
+        
+        public static string Delete(string articleTitle)
+        {
+            return $"{articleTitle} başlıklı makale başarılı bir şekilde silindi";
+        }
     }    
 }

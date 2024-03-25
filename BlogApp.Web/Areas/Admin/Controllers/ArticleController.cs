@@ -87,7 +87,8 @@ public class ArticleController : Controller
 
         if (result.IsValid)
         {
-            await _articleService.UpdateArticleAsync(articleUpdateDto);
+           var title =  await _articleService.UpdateArticleAsync(articleUpdateDto);
+           _toast.AddSuccessToastMessage(Messages.Article.Update(title), new ToastrOptions{Title="İşlem başarılı"});
             return RedirectToAction("Index","Article",new {Area = "Admin"});
         }
         else
@@ -103,7 +104,9 @@ public class ArticleController : Controller
     [HttpGet]
     public async Task<IActionResult> Delete(Guid articleId)
     {
-        await _articleService.SafeDeleteArticleAsync(articleId);
+        var title = await _articleService.SafeDeleteArticleAsync(articleId);
+        
+        _toast.AddSuccessToastMessage(Messages.Article.Delete(title), new ToastrOptions{Title="İşlem başarılı"});
 
         return RedirectToAction("Index", "Article", new { Area = "Admin" });
     }

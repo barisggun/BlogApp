@@ -5,6 +5,7 @@ using BlogApp.Services.Services.Abstractions;
 using BlogApp.Services.Services.Concrete;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -19,7 +20,10 @@ public static class ServiceLayerExtensions
         
         services.AddScoped<IArticleService, ArticleService>();
         services.AddScoped<ICategoryService, CategoryService>();
-
+        
+        //Identity için Httpcontext mevcutta olan kullanıcıyı bulmamızı sağlayacak
+        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        
         services.AddAutoMapper(assembly);
 
         services.AddControllersWithViews().AddFluentValidation(opt =>
